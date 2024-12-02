@@ -5,11 +5,11 @@ def connect_to_mysql():
     try:
         # Connect to the MySQL database
         connection = mysql.connector.connect(
-            host='127.0.0.1',          # Update with your MySQL host
-            database='cappuchino_db',  # Update with your database name
-            user='root',               # Update with your MySQL username
-            password='Kanyariri001',   # Update with your MySQL password
-            port=3600                  # Update with your MySQL port
+            host='127.0.0.1',         
+            database='cappuchino_db',  
+            user='root',              
+            password='Kanyariri001',  
+            port=3600                  
         )
 
         if connection.is_connected():
